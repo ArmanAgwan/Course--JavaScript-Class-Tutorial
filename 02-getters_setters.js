@@ -1,19 +1,19 @@
 class Square {
-    constructor (_width) {
-        this._width = _width;
-        this._width = _width;
-        this.numOfRequestsForArea = 0;
-    }
+  constructor(_width) {
+    this._width = _width;
+    this._width = _width;
+    this.numOfRequestsForArea = 0;
+  }
 
-    get area() {
-        this.numOfRequestsForArea++;
-        return this.width * this.height;
-    }
+  get area() {
+    this.numOfRequestsForArea++;
+    return this.width * this.height;
+  }
 
-    set area(area) {
-        this.width = Math.sqrt(area);
-        this.height = this.width;
-    }
+  set area(area) {
+    this.width = Math.sqrt(area);
+    this.height = this.width;
+  }
 }
 
 let square1 = new Square(4);
