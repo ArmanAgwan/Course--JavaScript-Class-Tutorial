@@ -1,27 +1,27 @@
-class Square {
-  constructor(_width) {
-    this._width = _width;
-    this._width = _width;
-    this.numOfRequestsForArea = 0;
-  }
+// class Square {
+//   constructor(_width) {
+//     this._width = _width;
+//     this._width = _width;
+//     this.numOfRequestsForArea = 0;
+//   }
 
-  get area() {
-    this.numOfRequestsForArea++;
-    return this.width * this.height;
-  }
+//   get area() {
+//     this.numOfRequestsForArea++;
+//     return this.width * this.height;
+//   }
 
-  set area(area) {
-    this.width = Math.sqrt(area);
-    this.height = this.width;
-  }
-}
+//   set area(area) {
+//     this.width = Math.sqrt(area);
+//     this.height = this.width;
+//   }
+// }
 
-let square1 = new Square(4);
-square1.area = 25;
+// let square1 = new Square(4);
+// square1.area = 25;
 
-console.log(square1.area);
-console.log(square1.area);
-console.log(square1.area);
-console.log(square1.area);
+// console.log(square1.area);
+// console.log(square1.area);
+// console.log(square1.area);
+// console.log(square1.area);
 
-console.log(square1.numOfRequestsForArea);
+// console.log(square1.numOfRequestsForArea);
